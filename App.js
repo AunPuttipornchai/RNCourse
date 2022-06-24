@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View, Button, TextInput } from "react-native";
+import { styles } from './screen/style'
+import { Text, View, Button, TextInput } from "react-native";
 import { useState } from "react";
 
 export default function App() {
@@ -33,31 +34,3 @@ export default function App() {
     </View>
   );
 }
-
-
-111111
-
-const styles = StyleSheet.create({
-  appContainer: {
-    paddingTop: 50,
-    paddingHorizontal: 16,
-  },
-  inputContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingBottom: 24,
-    borderBottomWidth: 1,
-    borderBottomColor: "#cccccc",
-  },
-  textInput: {
-    borderWidth: 1,
-    borderColor: "#cccccc",
-    width: "70%",
-    marginRight: 8,
-    padding: 8,
-  },
-  goalsContainer: {
-    paddingTop: 20,
-  },
-});
