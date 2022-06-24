@@ -34,6 +34,9 @@ export default function App() {
   );
 }
 
+
+111111
+
 const styles = StyleSheet.create({
   appContainer: {
     paddingTop: 50,
